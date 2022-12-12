@@ -29,7 +29,9 @@ We selected the pre-trained RoBERTa, BERT, and Distill BERT models as the basis 
 # 3.3    Word embeddings: 
 To generate the word embeddings, we passed the questions in the training and testing sets through the RoBERTa, BERT, and Distill BERT models. These models take the words in the questions as input, and they output a vector representation for each word. The vectors capture the meaning of the words in the context of the model's training data, and they can be compared to calculate the similarity between the words.
 By generating the word embeddings for the questions in the training and testing sets, we are able to represent the meaning of the words in a numerical format, which can be used to calculate the semantic similarity between the questions. It also enables us to evaluate the performance of the models on the task of semantic textual similarity.
-We have encountered some errors while attempting to fine-tune the pre-trained language models. We have faced this issues while tokenizing the question pairs. Therefore we are not able to work on the model training part of the project. We have tried resolving the issue.
+
+We have encountered some errors while attempting to fine-tune the pre-trained language models. We have faced this issues while tokenizing the question pairs. Therefore we are not able to work on the model training part of the project. We have tried resolving the issue, but not able to fix the issue. We have commented out the part of the code that is being errored.
+
 # 3.4    Threshold setting:
 We set the threshold for the similarity between two questions as 0.6, based on the distribution of the similarity scores in the dataset. This threshold is used to determine whether two questions are considered similar or not, based on their similarity score.
 To set the threshold, we first calculated the similarity scores between all pairs of questions in the dataset. This gave us a distribution of the similarity scores, which we used to determine the appropriate threshold. In this case, we chose a threshold of 0.6, which is a reasonable value based on the distribution of the similarity scores in the dataset.
