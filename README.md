@@ -2,7 +2,8 @@
 # Term Project Report
 # Semantic Textual Similarity of Quora question pairs
 
-- Bhavana Srushti1	- Sai Teja Karlapudi2
+- Bhavana Srushti
+- Sai Teja Karlapudi
 
 # Abstract
 The degree to which two texts have similar meanings is gauged by semantic textual similarity. Based on the words and phrases used in the questions and their context, semantic textual similarity can be used to assess how similar the meanings of two Quora question pairings are. This can be helpful for various natural language processing jobs, such as finding duplicate or similar queries on Quora. The objective of the project is to determine whether or not the question pairings have similar intentions. To measure the semantic relationship between two entities using Pre-trained models like RoBERTa, BERT and Distill BERT. Evaluate the performance of different models using F1 score as the metrics.
